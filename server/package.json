@@ -1,11 +1,24 @@
 {
-  "name": "idsm",
-  "version": "1.0.0",
-  "description": "integrated display solution manager",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "terorwebdev@gmail.com",
-  "license": "ISC"
+    "name": "idsm",
+    "version": "1.0.0",
+    "description": "integrated display solution manager",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index"
+    },
+    "dependencies": {
+        "@types/socket.io": "^2.1.4",
+        "cors": "^2.8.5",
+        "directory-tree": "^2.2.4",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.1.7-alpha.3",
+        "formidable": "^1.2.2",
+        "get-video-duration": "^1.0.3",
+        "hh-mm-ss": "^1.2.0",
+        "mongodb": "^3.5.5",
+        "move-file": "^2.0.0",
+        "socket.io": "^2.3.0"
+    },
+    "author": "terorwebdev@gmail.com",
+    "license": "ISC"
 }
