@@ -8,6 +8,7 @@
     },
     "dependencies": {
         "@types/socket.io": "^2.1.4",
+        "calendar-dates": "^2.6.1",
         "cors": "^2.8.5",
         "directory-tree": "^2.2.4",
         "express": "^4.17.1",
@@ -17,6 +18,7 @@
         "hh-mm-ss": "^1.2.0",
         "mongodb": "^3.5.5",
         "move-file": "^2.0.0",
+        "node-calendar": "^0.1.5",
         "socket.io": "^2.3.0"
     },
     "author": "terorwebdev@gmail.com",
